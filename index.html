@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+
+   <meta charset="UTF-8">
+   <meta name="description" content="Pomodoro Clock by Ignacio Long">
+   <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Pomodoro, Clock">
+   <meta name="author" content="Ignacio Long">
+   
+   <title>Pomodoro Clock</title>
+
+   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Calligraffitti">
+
+   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+   <script type="text/javascript" src="js/pomodoro.js"></script>
+</head>
+
+
+<body>
+
+   <div class="container">
+
+      <div id="banner">
+         <h1>Pomodoro Clock</h1>
+         <p>Balance Your Work Time</p>
+         <p>Frequent Breaks Can Improve Mental Agility!<p>
+      </div>
+
+      <div id="pomodoroApp">
+
+         <div class="controls">
+            <span>Session Time</span>
+            <div class="timeControl"><button id="sessionLess">-</button><span id="session"></span><button id="sessionMore">+</button></div>
+         </div>
+
+         <div class="controls">
+            <span>Break Time</span>
+            <div class="timeControl"><button id="breakLess">-</button><span id="break"></span><button id="breakMore">+</button></div>
+         </div>
+         <article>
+            <div id="theClock">
+               <h3 id="status">Click Here To Start</h3>
+               <div id="timer">
+                  25:00
+               </div>
+            </div>
+         </article>
+
+         <button id="resetBtn">Reset The Pomodoro?</button>
+
+      </div>
+
+   </div>
+
+</body>
+
+
+<!---------------- Footer ---------------->
+<footer class="text-center">
+  <hr>
+  <p>Page designed and coded by <a href="https://www.ignaciolong.com" target="_blank">Ignacio Long</a>.</p>
+</footer>
+   
